@@ -213,17 +213,6 @@
     margin: 10px auto 0 !important; 
 }
 
-/*
-.monaco-workbench .part.panel.bottom .composite.title {
-    background: inherit !important;
-    top: 0 !important;
-    position: sticky !important;
-    border-top-style: solid !important;
-    border-top-width: 1px !important;
-    z-index: 1 !important;
-    background-color: transparent !important;
-}
-
 .monaco-workbench .part.panel .content {
     padding-top: 0rem !important;
     width: 100% !important;
@@ -232,18 +221,7 @@
 
 #terminal > .monaco-pane-view > .monaco-split-view2.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view {
     width: -webkit-fill-available !important;
-    height: -webkit-fill-available !important;
-}
-
-.monaco-workbench .pane-body.integrated-terminal .terminal-groups-container.alt-active .xterm  {
-    height: -webkit-fill-available !important;
-    margin-top: 20px;
-}
-
-.pane-body.shell-integration.integrated-terminal.wide > .monaco-split-view2 > .monaco-scrollable-element>.split-view-container > :nth-child(2) {
-    width: -webkit-fill-available !important;
-}
-*/
+} 
 
 body:has(.abolkog-vscode-abolkog-light-themes-dark-json) .monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2):has(div.part.panel.bottom) {
     background-color: #282c34;
