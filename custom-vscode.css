@@ -223,6 +223,10 @@
     width: -webkit-fill-available !important;
 } 
 
+.monaco-workbench .pane-body.integrated-terminal .split-view-view:not(:first-child) {
+    width: -webkit-fill-available !important;
+} 
+
 body:has(.abolkog-vscode-abolkog-light-themes-dark-json) .monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2):has(div.part.panel.bottom) {
     background-color: #282c34;
 }
