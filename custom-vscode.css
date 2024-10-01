@@ -14,7 +14,7 @@
 
 /* Toolbars when tabs are enabled. */
 .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
-    display: none !important;
+    /* display: none !important; */
 }
 
 /* Side bar */
@@ -24,7 +24,7 @@
 
 /* File Explorer Selected Item */
 .monaco-list.list_id_1 .monaco-list-row.selected {
-    border: none !important;
+    /* border: none !important; */
 }
 
 /* List item label name */
@@ -32,9 +32,14 @@
 
 }
 
-/* File explorer action buttons */
-.monaco-workbench .part.sidebar .title-actions .actions-container {
-    display: none;
+/* Sidebar title */
+.monaco-workbench .part.sidebar>.title {
+    flex-wrap: wrap;
+}
+
+/* Sidebar action buttons */
+.monaco-workbench .part.sidebar .title-actions .actions-container .action-item .start-debug-action-item {
+    border-radius: 6px;
 }
 
 /* File Explorer Item Label */
