@@ -189,7 +189,7 @@
     background: rgba(0, 0, 0, .15);
     top: 0;
     left: 0;
-    backdrop-filter: blur(1px);
+    --webkit-backdrop-filter: blur(1px);
 }
 
 /* Command palette's input box placeholder. */
@@ -214,11 +214,11 @@
 .monaco-workbench .part.panel {
     display: flex !important;
     flex-direction: column !important;
-    width: 95vw !important;
-    border-radius: 10px 10px 0 0 !important; 
-    box-shadow: 0 -3px 8px 5px  rgba(43, 43, 43, 0.2) !important; 
-    margin: 10px auto 0 !important; 
-    padding-bottom: 0.75rem !important;
+    width: 100% !important;
+    /* border-radius: 10px 10px 0 0 !important;  */
+    /* margin: 10px auto 0 !important;  */
+    /* padding-bottom: 0.75rem !important; */
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.15) !important; 
 }
 
 .monaco-workbench .part.panel .content {
@@ -237,14 +237,6 @@
 
 .monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2):has(div.part.panel.bottom) {
     display: flex;
-}
-
-body:has(.abolkog-vscode-abolkog-light-themes-dark-json) .monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2):has(div.part.panel.bottom) {
-    background-color: #282c34;
-}
-
-body:has(.rahmanyerli-ra-spring-themes-ra-spring-json) .monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2):has(div.part.panel.bottom) {
-    background-color: #ffffff;
 }
 
 .letterpress {
