@@ -203,9 +203,6 @@
 } */
 
 /* Container that holds the VS Code home icon. */
-.editor-group-watermark {
-    max-width: none !important;
-}
 
 .command-center-center {
     width:  auto !important;
@@ -237,10 +234,6 @@
 
 .monaco-split-view2.vertical>.monaco-scrollable-element>.split-view-container>.split-view-view:nth-child(2):has(div.part.panel.bottom) {
     display: flex;
-}
-
-.letterpress {
-    transform: scale(0.5, 0.5);
 }
 
 /*
